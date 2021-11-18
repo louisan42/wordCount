@@ -1,0 +1,6 @@
+A frequency table lists words and the number of times each word appears in a text file.
+Write a program that creates a frequency table for a file whose name is entered by the
+user. You can use a map of string-int pairs. You may want to use the C library function
+ispunct() (in header file CTYPE.H) to check for punctuation so you can strip it off the
+end of a word, using the string member function substr(). Also, the tolower() function
+may prove handy for uncapitalizing words. 
